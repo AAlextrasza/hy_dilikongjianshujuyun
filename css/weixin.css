@@ -1,0 +1,49 @@
+.weixin{
+    margin-left: 10px;
+    margin-top: 5;
+  }
+ .weixin-01{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left:140px;
+  }
+  .weixin-01>li:nth-child(1)
+  {
+  font-family: "微软雅黑";
+  font-size:18px;
+  line-height:3.58rem;
+  font-weight:300;
+  width:320px;
+  }
+  .weixin-02{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left:200px;
+  }
+  .wenxin-02>li:nth-child(1)
+  {
+  font-family: "微软雅黑";
+  font-size:18px;
+  line-height:3.58rem;
+  font-weight:200;
+  width:350px;
+  }
+  .weixin-03{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left:120px;
+  }
+  .wenxin-03>li:nth-child(1)
+  {
+  font-family: "微软雅黑";
+  font-size:18px;
+  line-height:3.58rem;
+  font-weight:200;
+  width:200px;
+  }
