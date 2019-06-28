@@ -1,20 +1,329 @@
-.tuwen{
-    margin-left: 70px;
-    margin-top: 0;
-  }
-  li{
-    list-style: none;
-  }
-  .wenzi{
-    float: left;
-    width: 450px;
-    height: 200px;
-    margin-top: 5px;
-    margin-left:100px;
-  }
-  .tupian{
-    float: left;
-    width: 600px;
-    height: 600px;
-    margin-left: 100px;
-  }
+/*首页样式*/
+html {
+  font-size: 14px;
+  color:#333333;
+}
+body {
+  margin: 0;
+}
+ul,h1,h2,h3{
+  margin: 0;
+  padding: 0;
+
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+.wrapper {
+  /* width: 1200px;*/
+   margin: 0 auto;
+ }
+ 
+
+/*顶部导航*/
+.top_nav{
+  font-size: 10px;
+  border-bottom: 1px solid #ededed;
+  margin:0 0 0 60px;
+}
+.top_nav> .wrapper::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.top_nav .nav {
+  float: left;
+}
+.top_nav .nav >ul >{
+float: left;
+}
+
+.top_nav .nav >ul > li{
+  float:left;
+  font-size:20px;
+  width: 100px;
+  text-align: center;
+  line-height:4em;
+  cursor: pointer;
+}
+.top_nav .nav >ul > li:hover {
+  color:greenyellow;
+  text-decoration: underline;
+}
+.top_nav .sousuo {
+  float: right ;
+}
+
+
+/*四个板块*/
+.sigebankuai{
+  margin-left: 55px;
+ margin-top: 0;
+}
+.sigebankuai>li{
+  float: left;
+  cursor:pointer;
+}
+.sigebankuai>li:hover{
+  background-color: rgba(50, 50, 50, 0.85);
+}
+
+.sigebankuai>li:hover{
+  text-decoration: underline;
+}
+/*主体区1*/
+.tupianjiawenzi01{
+ margin-left: 20px;
+ margin-top: 0;
+}
+li{
+ list-style: none;
+}
+.wenzi01{
+ float: left;
+ width: 500px;
+ height: 200px;
+ margin-top: 100px;
+ margin-left:100px;
+}
+.wenzi01>li:nth-child(1)
+{
+font-family: "微软雅黑";
+font-size:40px;
+line-height:3.58rem;
+font-weight:300;
+width:554px;
+}
+.wenzi01>li:nth-child(2)
+{
+font-family: "微软雅黑";
+font-size: 20px;
+line-height: 2.2rem;
+color: #323232;
+margin-top:20px;
+letter-spacing: 0.5px;
+font-weight: 400;
+width:500px;
+}
+.tupian01_box{
+width: 500px;
+height: 430px;overflow: hidden;}
+.tupian01{
+width:100%;transition: all 0.6s;}
+.tupian01:hover{
+transform: scale(1.2);}
+.tupian01{
+ float: left;
+ width: 500px;
+ height: 430px;
+ margin-left: 100px;
+}
+/*主体区2*/
+.tupianjiawenzi02{
+margin-left: 20px;
+margin-top: 0;
+background-color: rgba(50, 50, 50, 0.85);
+}
+li{
+list-style: none;
+}
+.wenzi02{
+float: left;
+width: 600px;
+height: 400px;
+background-color:rgba(50, 50, 50, 0.85);
+
+}
+.wenzi02>li:nth-child(1)
+{
+font-family: "微软雅黑";
+color: #ededed;
+font-size:40px;
+line-height:3.58rem;
+margin-top:120px;
+font-weight:300;
+width:554px;
+text-align:center;
+}
+.wenzi02>li:nth-child(2)
+{
+font-family: "微软雅黑";
+color: #ededed;
+font-size: 20px;
+line-height: 2.2rem;
+margin-top:20px;
+letter-spacing: 0.5px;
+font-weight: 400;
+width:500px;
+text-align:center;
+}
+.tupian02{
+float: left;
+width: 600px;
+height: 400px;
+
+}
+/*主体区3*/
+.tupianjiawenzi03{
+margin-left: 20px;
+margin-top: 0;
+}
+li{
+list-style: none;
+}
+.wenzi03{
+float: left;
+width: 500px;
+height: 200px;
+margin-top: 100px;
+margin-left:100px;
+}
+.wenzi03>li:nth-child(1)
+{
+font-family: "微软雅黑";
+font-size:40px;
+line-height:3.58rem;
+font-weight:300;
+width:554px;
+}
+.wenzi03>li:nth-child(2)
+{
+font-family: "微软雅黑";
+font-size: 20px;
+line-height: 2.2rem;
+color: #323232;
+margin-top:20px;
+letter-spacing: 0.5px;
+font-weight: 400;
+width:500px;
+}
+.tupian03{
+float: left;
+width: 500px;
+height: 430px;
+margin-left: 100px;
+}
+/*主体区4*/
+.tupianjiawenzi04{
+margin-left: 20px;
+margin-top: 0;
+}
+li{
+list-style: none;
+}
+.wenzi04{
+float: left;
+width: 600px;
+height: 400px;
+background-color:rgba(50, 50, 50, 0.85);
+
+}
+.wenzi04>li:nth-child(1)
+{
+font-family: "微软雅黑";
+color: #ededed;
+font-size:40px;
+line-height:3.58rem;
+margin-top:120px;
+font-weight:300;
+width:554px;
+text-align:center;
+}
+.wenzi04>li:nth-child(2)
+{
+font-family: "微软雅黑";
+color: #ededed;
+font-size: 20px;
+line-height: 2.2rem;
+margin-top:20px;
+letter-spacing: 0.5px;
+font-weight: 400;
+width:500px;
+text-align:center;
+text-indent:2em;
+}
+.tupian04{
+width: 600px;
+height: 400px;
+float: left;
+}
+
+/*主体区5*/
+.tupianjiawenzi05{
+margin-left: 20px;
+margin-top: 0;
+}
+li{
+list-style: none;
+}
+.wenzi05{
+float: left;
+width: 600px;
+height: 200px;
+margin-top: 100px;
+margin-left:50px;
+}
+.wenzi05>li:nth-child(1)
+{
+font-family: "微软雅黑";
+font-size:40px;
+line-height:3.58rem;
+font-weight:300;
+width:554px;
+}
+.wenzi05>li:nth-child(2)
+{
+font-family: "微软雅黑";
+font-size: 20px;
+line-height: 2.2rem;
+color: #323232;
+margin-top:20px;
+letter-spacing: 0.5px;
+font-weight: 400;
+width:500px;
+}
+.tupian05{
+float: left;
+width: 400px;
+height: 430px;
+
+}
+
+
+/*结尾区*/
+.about{
+margin-left: 20px;
+margin-top: 0;
+}
+li{
+list-style: none;
+}
+
+
+.Esri{
+width: 600px;
+height: 200px;
+background-color: rgb(93, 188, 218);
+font-family: "微软雅黑";
+color: #ededed;
+font-size:40px;
+float: left;
+text-align:center;
+}
+.GIS{
+width: 600px;
+height: 200px;
+background-color: rgb(66, 19, 66);
+font-family: "微软雅黑";
+color: #ededed;
+font-size:40px;
+float: left;;
+text-align:center;
+}
+
+
