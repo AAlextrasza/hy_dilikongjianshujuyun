@@ -1,1 +1,20 @@
-/*首页样式*/
+.tuwen{
+    margin-left: 70px;
+    margin-top: 0;
+  }
+  li{
+    list-style: none;
+  }
+  .wenzi{
+    float: left;
+    width: 450px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left:100px;
+  }
+  .tupian{
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+  }
