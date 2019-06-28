@@ -1,0 +1,124 @@
+html {
+    font-size: 17px;
+    color: #333333;
+  }
+  body {
+    margin: 0;
+  }
+span{
+    margin: 0px;
+    padding: 0px;
+}
+  span{
+    list-style:none;
+}
+.navbar{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 5em;
+}
+.navbar>.navbarlogo{
+    float: left;
+    cursor: pointer;
+}
+.navbar>.one{
+    float: left;
+    width: 735px;
+    cursor: pointer;
+}
+.navbar>.one>span{
+    margin-left: 20px;
+}
+.two>.about{
+    font-size: 22px;
+    color: white;
+    float: left;
+    margin-left: -200px;
+    cursor: pointer;
+}
+.two>.esri{
+    font-size: 22px;
+    color: white;
+    float: left;
+    margin-left: 600px;
+    cursor: pointer;
+}
+.two{
+    height: 55px;
+    line-height: 3em;
+}
+.two>.esri>span{
+    margin-left: 20px;
+
+}
+.video{
+    float: left;
+    margin-left: 180px;
+}
+.jieshao>span{
+    float:left;
+    margin-left: 40px;
+}
+.navbar>.one>span:hover{
+    color: cyan;
+}
+.two>.about:hover{
+    color: cyan;
+}
+.two>.esri>.Z1:hover{
+    color: cyan;
+}
+.two>.esri>.Z2:hover{
+    color: cyan;
+}
+.two>.esri>.Z3:hover{
+    color: cyan;
+}
+.p1{
+    width:1900px;height:348px;overflow: hidden;
+}
+.p1{
+    width:100%;transition: all 0.6s;
+}
+.p1:hover{
+    transform: scale(1.2);
+}
+.p2{
+    width:1899px;height:474px;overflow: hidden;
+}
+.p2{
+    width:100%;transition: all 0.6s;
+}
+.p2:hover{
+    transform: scale(1.2);
+}
+.p3{
+    width:1899px;height:476px;overflow: hidden;
+}
+.p3{
+    width:100%;transition: all 0.6s;
+}
+.p3:hover{
+    transform: scale(1.2);
+}
+.p4{
+    width:1901px;height:477px;overflow: hidden;
+}
+.p4{
+    width:100%;transition: all 0.6s;
+}
+.p4:hover{
+    transform: scale(1.2);
+}
+.p5{
+    width:1899px;height:763px;overflow: hidden;
+}
+.p5{
+    width:100%;transition: all 0.6s;
+}
+.p5:hover{
+    transform: scale(1.2);
+}
+
+ 
