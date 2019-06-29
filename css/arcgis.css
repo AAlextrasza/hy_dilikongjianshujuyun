@@ -1,0 +1,125 @@
+html {
+    font-size: 19px;
+    color: #333333;
+  }
+body{
+    margin: 0;
+}
+span{
+    margin: 0;
+    padding: 0;
+}
+span{
+    list-style: none;
+  }
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 5em;
+    height: 100px;
+}
+.header>.logo{
+    float: left;
+    cursor: pointer;
+}
+.header>.one{
+    float: left;
+    width: 735px;
+}
+.header>.one>span{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header>.one>span:hover{
+    color: cyan;
+}
+.header>.chaxun{
+    float: right;
+}
+.two{
+    height: 58px;
+    color: white;
+    line-height: 3em;
+}
+.two>.chanpinjishu{
+    float: left;
+    font-size: 23px;
+    margin-left: -175px;
+    cursor: pointer;
+}
+.two>.chanpinjishu:hover{
+    color: cyan;
+}
+.two>.three{
+    float: right;
+    font-size: 20px;
+    margin-right: -160px;
+    cursor: pointer;
+}
+.two>.three>.ArcGIS:hover{
+    color: cyan;
+}
+.two>.three>.ENVI:hover{
+    color: cyan;
+}
+
+.two>.three>span{
+    margin-left: 20px;
+}
+.four{
+    height: 60px;
+    line-height: 3em;
+    margin-left: 220px;
+    cursor: pointer;
+}
+.four>span{
+    margin-left: 24px;
+}
+.four>span:hover{
+    color: cyan;
+}
+.five{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2em;
+}
+.six{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2em;
+}
+.seven{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2em;
+}
+.eight{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2em;
+}
+.nine{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2em;
+}
+.ten{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2em;
+}
+
+
