@@ -1,0 +1,128 @@
+html {
+    font-size: 14px;
+    color: #333333;
+  }
+  body {
+    margin: 0;
+    font-size:10px;
+    color:#333333;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #333333;
+    text-decoration: none;
+    background-color:transparent;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+  }
+  .fast_nav {
+    font-size: 10x;
+    margin:0 0 0 80px;
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  
+  .fast_nav .nav {
+    float: left;
+  }
+  
+  .fast_nav .nav >ul > li{
+    float:left;
+    font-size:20px;
+    width: 120px;
+    text-align: center;
+    line-height:4em;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  .fast_nav .search {
+    float: right;
+  }
+  
+  .big-banner{
+      width:100%;
+      height: auto;
+      overflow:hidden;
+      position:relative;
+  }
+  .big-banner>img{
+      display:block;
+      width:100%;
+      height: auto;
+      overflow: hidden;
+  }
+.img-responsive{
+    max-width:100%;
+}
+img{
+    vertical-align: middle;
+}
+img{
+    border:0;
+}
+
+.big-banner>.banner-title{
+    position:relative;
+    top:-17rem;
+    color:#FFFFFF;
+    font-size: 4rem;
+    margin-left:200px;
+}
+.schd-title{
+    font-size: 35px;
+    color:#777777;
+    margin-left:80px;
+    border-bottom:1px solid #E2E2E2;
+}
+.hd-table{
+    font-size: 1.6rem;
+    color:#666;
+    margin:2rem auto;
+}
+.table{
+    width:100%;
+    max-width:100%;
+}
+table{
+    background-color: transparent;
+    
+}
+table{
+    border-collapse:collapse;
+    border-spacing: 0;
+}
+.hd-table tr:last-child{
+    border-bottom:1px solid #DDD;
+}
+.table-head{
+    background-color: #969696;
+    color:#FFFFFF;
+    width:100%;
+    font-size: 1.6rem;
+}
+.table>thead>tr>th,.table>tbody>tr>th,
+.table>tfoot>tr>th,.table>thead>tr>td,
+.table>tbody>tr>td,.table>tfoot>tr>td{
+    padding:8px;
+    line-height: 2;
+    vertical-align:top;
+    border-top:1px solid #ddd;
+}
+.hd-table>tbody>tr>td>a{
+    color:#77A07C
+}
+
