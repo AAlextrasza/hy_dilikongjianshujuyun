@@ -1,0 +1,55 @@
+/* 重置样式 */
+html {
+    font-size: 14px;
+    color: #333333;
+  }
+  body {
+    margin: 0;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .wrapper {
+   /* width: 1200px;*/
+    margin: 0 auto;
+  }
+  /* 第一行菜单 */
+  .fast_nav {
+    font-size: 10x;
+    margin:0 0 0 80px;
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  
+  .fast_nav .nav {
+    float: left;
+  }
+  
+  .fast_nav .nav >ul > li{
+    float:left;
+    font-size:20px;
+    width: 120px;
+    text-align: center;
+    line-height:4em;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  .fast_nav .search {
+    float: right;
+  }
+  
